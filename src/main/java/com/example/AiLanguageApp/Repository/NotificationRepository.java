@@ -1,0 +1,7 @@
+package com.example.AiLanguageApp.Repository;
+
+import com.example.AiLanguageApp.model.Notification;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface NotificationRepository extends JpaRepository<Notification, Long> {
+}
